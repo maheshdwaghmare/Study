@@ -1,0 +1,13 @@
+Thumbs.db
+desktop.ini
+packages/
+*.suo
+*.user
+**/bin
+**/obj
+*.js.map
+**/node_modules
+**/.vs
+**/dist
+**/pages
+!/.gitignore
