@@ -12,7 +12,8 @@ namespace DesignPatterns
     {
         public static void Main(string[] args)
         {
-            //Factory Pattern :- Creational
+            // Factory Pattern :- Creational
+            // Defines Interface for creating an object
             //int invoiceType = 0;
             //IInvoice ObjInvoice;
             //Console.WriteLine("Enter the Invoice Type: ");
@@ -23,17 +24,20 @@ namespace DesignPatterns
 
 
             // Abstract Factory Pattern :- Creational
+            // Defines Interface for creating families of diff/similar objects
             //IComputer pc = ComputerFactory.createComputer(new PCFactory("2 GB", "500 GB", "2.4 GHz"));
             //IComputer server = ComputerFactory.createComputer(new ServerFactory("4 GB", "1 TB", "2.4 GHz"));
             //IComputer laptop = ComputerFactory.createComputer(new LaptopFactory("8 GB", "2 TB"));
 
             // Facade Pattern :- Structural
+            // Defines a high level interface that makes the subsystem easier to use.
             //Applicant applicant = new Applicant { Name = "Onkar Nene" };
             //ApplicationFacade applicationFacade = new ApplicationFacade(applicant);
             //Console.WriteLine(applicant.Name + "'s application is " + (applicationFacade.IsValidationDone() ? "accepted" : "rejected"));
             //Console.ReadLine();
 
             // Strategy Pattern :- Behavioral
+            // Encapsulates an algorithm inside a class
             //ShoppingMall objShoppingMall = new ShoppingMall(new LowDiscountStrategy());
             //objShoppingMall.CustomerName = "Monday Customer";
             //objShoppingMall.BillAmount = 1000;
@@ -49,8 +53,10 @@ namespace DesignPatterns
             //Console.ReadLine();
 
             // Depedency Injection :- Implement IOC
+            // Implement IOC :- Make classes loosely coupled.
 
             // Template Method Pattern :- Behavioral
+            // Redefine certain steps of an algorithm without changing the algorithm's structure.
             //Pizza pizza = new NonVegPizza();
             //pizza.MakePizza();
             //pizza = new VegPizza();
@@ -58,10 +64,20 @@ namespace DesignPatterns
             //Console.ReadLine();
 
             // Adapter Pattern :- Structural
+            // Match interfaces of different classes
             //USBAdapter usb = new USBAdapter();
             //usb.ConnectA();
             //Console.WriteLine("Got the signal!");
             //Console.ReadLine();
+
+            // Builder Pattern :- Creational
+            // Separates object construction from its representation
+            //var director = new Director(new ScheduledReportBuilder());
+            //director.CreateReport();
+            //var report = director.GetReport();
+            //director = new Director(new GeneratedReportBuilder());
+            //director.CreateReport();
+            //report = director.GetReport();
         }
     }
 }

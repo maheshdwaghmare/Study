@@ -47,6 +47,9 @@
     <Compile Include="Classes\ApplicationFacade.cs" />
     <Compile Include="Classes\BackgroundValidation.cs" />
     <Compile Include="Classes\ComputerFactory.cs" />
+    <Compile Include="Classes\GeneratedReportBuilder.cs" />
+    <Compile Include="Classes\ScheduledReportBuilder.cs" />
+    <Compile Include="Classes\Director.cs" />
     <Compile Include="Classes\FactoryInvoice.cs" />
     <Compile Include="Classes\FeeValidation.cs" />
     <Compile Include="Classes\FormValidation.cs" />
@@ -58,9 +61,11 @@
     <Compile Include="Classes\NoDiscountStrategy.cs" />
     <Compile Include="Classes\NonVegPizza.cs" />
     <Compile Include="Classes\Pizza.cs" />
+    <Compile Include="Classes\Report.cs" />
     <Compile Include="Classes\ShoppingMall.cs" />
     <Compile Include="Classes\USBAdapter.cs" />
     <Compile Include="Classes\VegPizza.cs" />
+    <Compile Include="Interfaces\IBuilder.cs" />
     <Compile Include="Interfaces\IStrategy.cs" />
     <Compile Include="Classes\Laptop.cs" />
     <Compile Include="Classes\LaptopFactory.cs" />
